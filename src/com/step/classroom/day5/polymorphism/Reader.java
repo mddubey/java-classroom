@@ -1,6 +1,6 @@
 package com.step.classroom.day5.polymorphism;
 
-public class Reader {
+public interface Reader {
     // The purpose of the application is to help a fictitious company called Bills Burgers to manage
     // their process of selling hamburgers.
     // Our application will help Bill to select types of burgers, some of the additional items (additions) to
@@ -30,7 +30,5 @@ public class Reader {
     // For the two additional classes this may require you to be looking at the base class for pricing and then
     // adding totals to final price.
 
-    public String read(){
-        return "Reading in reader";
-    }
+    String read();
 }
